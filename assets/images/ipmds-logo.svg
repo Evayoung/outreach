@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">International Parkinson and Movement Disorder Society logo</title>
+  <desc id="logoDesc">A red circular movement-disorder society mark adapted from the provided logo attachment.</desc>
+  <g fill="none" stroke="#C92D1B" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M42 120a78 78 0 1 0 136 0"/>
+    <path d="M45 118h-24c-4 0-7-3-7-7 0-18 3-35 9-50l24-1"/>
+    <path d="M175 118h24c4 0 7-3 7-7 0-18-3-35-9-50l-24-1"/>
+    <path d="M47 60 26 31c12-19 27-34 45-45l23 11"/>
+    <path d="M173 60 194 31c-12-19-27-34-45-45l-23 11"/>
+    <path d="M94 -3c11-3 21-4 32 0l-2 28c0 8-12 8-12 0V5h-4v20c0 8-12 8-12 0z"/>
+    <path d="M54 95c26 9 45 22 58 21 6-1 8-4 8-10 0-8-14 0-14-12 0-8 4-13 13-13 9 0 13 4 13 13 0 12-14 4-14 12 0 6 2 9 8 10 13 1 32-12 58-21"/>
+    <path d="M58 80c14 22 45 23 52 39 4 10 7 22 10 36"/>
+    <path d="M162 80c-14 22-45 23-52 39-4 10-7 22-10 36"/>
+    <path d="M120 155c-11 21-18 35-32 42-9 4-20 4-31 11"/>
+    <path d="M100 155c11 21 18 35 32 42 9 4 20 4 31 11"/>
+  </g>
+</svg>
