@@ -164,14 +164,24 @@ select {
   font-weight: 700;
 }
 
-.brand-logo {
+.brand-logo-shell {
+  display: inline-grid;
   width: 42px;
   height: 42px;
   flex: 0 0 auto;
-  padding: 4px;
+  place-items: center;
+  overflow: hidden;
+  padding: 5px;
   border: 1px solid rgba(201, 45, 27, 0.16);
   border-radius: 50%;
   background: var(--white);
+}
+
+.brand-logo {
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  object-fit: contain;
 }
 
 .nav-toggle {
@@ -778,7 +788,7 @@ select {
   border-radius: var(--radius);
   background:
     linear-gradient(135deg, rgba(0, 94, 184, 0.12), rgba(0, 166, 166, 0.18)),
-    url("assets/images/venue-hospital.jpg") center / cover;
+    url("assets/images/venue-hospital.png") center / cover;
   box-shadow: var(--shadow-soft);
 }
 
@@ -837,11 +847,23 @@ select {
   gap: 12px;
 }
 
-.footer-brand img {
+.footer-logo-shell {
+  display: inline-grid;
   width: 48px;
   height: 48px;
+  flex: 0 0 auto;
+  place-items: center;
+  overflow: hidden;
+  padding: 5px;
   border-radius: 50%;
   background: var(--white);
+}
+
+.footer-logo-shell img {
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  object-fit: contain;
 }
 
 .footer-brand strong {
