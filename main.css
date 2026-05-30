@@ -692,6 +692,13 @@ select {
   content: "";
 }
 
+.day-theme {
+  max-width: 820px;
+  margin: -4px 0 20px;
+  color: var(--muted);
+  font-weight: 700;
+}
+
 .timeline-card {
   display: grid;
   gap: 14px;
