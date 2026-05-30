@@ -44,3 +44,23 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
     }
   });
 });
+
+const feedbackForm = document.querySelector("#feedback-form");
+
+if (feedbackForm) {
+  feedbackForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    const formData = new FormData(feedbackForm);
+    const name = String(formData.get("name") || "").trim();
+    const contact = String(formData.get("contact") || "").trim();
+    const type = String(formData.get("type") || "").trim();
+    const message = String(formData.get("message") || "").trim();
+    const subject = encodeURIComponent(`DWEP 2026 Feedback - ${type || "General"}`);
+    const body = encodeURIComponent(
+      `Name: ${name}\nContact: ${contact}\nFeedback type: ${type}\n\nMessage:\n${message}`
+    );
+
+    window.location.href = `mailto:titilayoadeoye21@gmail.com?subject=${subject}&body=${body}`;
+  });
+}

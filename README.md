@@ -29,9 +29,8 @@ No build command is required.
 
 ## Pending Publication Details
 
-Replace the `To be confirmed` content once received:
+Replace the remaining `To be confirmed` content once received:
 
-- Official phone number and email
 - Registration Google Form link
 - Attendance fee or free-entry confirmation
 - Eligibility wording
@@ -41,3 +40,4 @@ Replace the `To be confirmed` content once received:
 - Accessibility, parking, and arrival guidance
 - Final speaker titles, affiliations, and photos
 - Downloadable flyer or programme PDF
+- Optional Google Form link for feedback, if the email-based feedback form should be replaced
