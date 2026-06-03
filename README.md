@@ -2,7 +2,7 @@
 
 Static HTML, CSS, and minimal JavaScript website for:
 
-**Care Within and Beyond the Clinic: A Support and Psychoeducation Program for Caregivers and Families Living with Parkinson's Disease and Other Movement Disorders**
+**Care Within and Beyond the Clinic: Empowering Caregivers and Families Living with Parkinson's Disease and Other Movement Disorders in Ogbomoso, Oyo State, Nigeria**
 
 ## Local Preview
 
