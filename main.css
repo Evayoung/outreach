@@ -437,6 +437,69 @@ select {
   box-shadow: var(--shadow-soft);
 }
 
+.flyer-layout {
+  display: grid;
+  gap: 40px;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+
+.flyer-copy {
+  max-width: 540px;
+}
+
+.flyer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.flyer-figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.flyer-figure a {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+.flyer-figure a:hover,
+.flyer-figure a:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+}
+
+.flyer-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: var(--white);
+}
+
+.flyer-figure figcaption {
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (min-width: 880px) {
+  .flyer-layout {
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+  }
+}
+
 .about-stat {
   display: grid;
   gap: 6px;
